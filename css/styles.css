@@ -1,0 +1,242 @@
+/*
+Front-end Style Guide ## Layout The designs were created to the following widths: 
+- Mobile: 375px 
+- Desktop: 1440px 
+## Colors 
+### Primary - Red: hsl(0, 78%, 62%) 
+- Cyan: hsl(180, 62%, 55%) 
+- Orange: hsl(34, 97%, 64%) 
+- Blue: hsl(212, 86%, 64%) 
+### Neutral - Very Dark Blue: hsl(234, 12%, 34%) 
+- Grayish Blue: hsl(229, 6%, 66%) 
+- Very Light Gray: hsl(0, 0%, 98%) 
+## Typography 
+### Body Copy - Font size: 15px
+### Fonts - Family: [Poppins](https: //fonts.google.com/specimen/Poppins)  
+- Weights: 200, 400, 600
+
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: whitesmoke;
+}
+
+.page {
+	background-color: white;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	margin: 0 auto;
+	padding-bottom: 70px;
+	width: 400px;
+}
+
+.main-title {
+	color: hsl(229, 6%, 66%);
+	font-weight: 200;
+	padding-top: 60px;
+	text-align: center;
+
+}
+
+h2 {
+	color: hsl(234, 12%, 34%);
+	font-weight: 600;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center;
+}
+
+.main-content {
+	color: hsl(229, 6%, 66%);
+	font-size: 1.0rem;
+	line-height: 1.5;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+.card {
+	border-radius: 2%;
+	box-shadow: 10px 5px 5px hsl(0, 0%, 98%);
+	height: 210px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-left: 20px;
+	width: 80%;
+}
+
+h3 {
+	color: hsl(234, 12%, 34%);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p {
+	color: hsl(229, 6%, 66%);
+	font-size: .9rem;
+	margin-bottom: 0;
+	margin-top: 5px;
+
+}
+
+img {
+	position: relative;
+	left: 220px;
+	top: 40px;
+}
+
+.card-1 {
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card-2 {
+	border-top: 4px solid hsl(34, 97%, 64%) ;
+}
+
+.card-3 {
+
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card-4 {
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+/* Mobile Styles */
+
+
+
+
+
+
+
+
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 961px) {
+	
+	.page {
+		width: 1400px;
+		height: 1000px;
+	}
+
+}
+
+
+
+
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+	/*
+  body {
+    background-color: #B2D6FF;  Blue 
+  }
+*/
+	.page {
+		width: 1400px;
+		height: 1000px;
+	}
+
+	.main-title {
+		padding-top: 60px;
+		width: 40%;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		text-align: center;
+		width: 60%;
+		margin: 0 auto;
+		font-size: 2.5rem;
+		
+		/*
+	margin-bottom: 0;
+	margin-top: 0;
+*/
+
+	}
+
+	.main-content {
+		font-size: 1.1rem;
+		line-height: 1.5;
+		margin-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 45%;
+	}
+
+	.card {
+		height: 250px;
+		margin-top: 30px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 15px;
+		padding-left: 20px;
+		width: 27%;
+	}
+
+	h3 {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	p {
+		font-size: 1.0rem;
+		margin-bottom: 0;
+		margin-top: 5px;
+
+	}
+
+	img {
+		position: relative;
+		left: 270px;
+		top: 55px;
+	}
+
+	.card-1 {
+		border-top: 4px solid hsl(180, 62%, 55%);
+		position: relative;
+		top: 190px;
+		right: 450px
+	}
+
+	.card-2 {
+
+		border-top: 4px solid hsl(34, 97%, 64%) ;
+		position: relative;
+		bottom: 220px;
+		margin-top: 0;
+	}
+
+	.card-3 {
+
+		border-top: 4px solid hsl(0, 78%, 62%);
+		position: relative;
+		bottom: 220px;
+	}
+
+	.card-4 {
+		border-top: 4px solid hsl(212, 86%, 64%);
+		position: relative;
+		left: 440px;
+		bottom: 640px;
+	}
+
+
+}
